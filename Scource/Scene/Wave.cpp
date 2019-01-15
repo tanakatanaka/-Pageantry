@@ -437,13 +437,13 @@ void makeLowerTank()
 	//float bWidth = 1.0;
 	//âEë§
 	rigid[2].kind = PLATE;
-	rigid[2].color = DARK_YELLOW;
+	rigid[2].color = DARK_CYAN;
 	rigid[2].vPos = Vector3D(rect.size.x/2.0, 0.0, bHeight / 2.0);
 	rigid[2].vSize = Vector3D( bHeight, rect.size.y, 1.0);
 	rigid[2].vEuler = Vector3D(0.0, -90.0, 0.0);
 	//ç∂ë§
 	rigid[3].kind = PLATE;
-	rigid[3].color = DARK_YELLOW;
+	rigid[3].color = DARK_CYAN;
 	rigid[3].vPos = Vector3D(-rect.size.x/2.0, 0.0, bHeight / 2.0);
 	rigid[3].vSize = Vector3D(bHeight, rect.size.y, 1.0);
 	rigid[3].vEuler = Vector3D(0.0, 90.0, 0.0);
@@ -473,25 +473,25 @@ void makeUpperTank()
 	float hh0 = waveHeight + bHeight / 2.0;
 	//âEë§
 	rigid[7].kind = PLATE;
-	rigid[7].color = DARK_YELLOW;
+	rigid[7].color = WHITE;
 	rigid[7].vPos = Vector3D(rect.size.x/2.0 , 0.0, hh0);
 	rigid[7].vSize = Vector3D(bHeight, rect.size.y, 1.0);
 	rigid[7].vEuler = Vector3D(0.0, -90.0, 0.0);
 	//ç∂ë§
 	rigid[8].kind = PLATE;
-	rigid[8].color = DARK_YELLOW;
+	rigid[8].color = WHITE;
 	rigid[8].vPos = Vector3D(-rect.size.x/2.0, 0.0, hh0);
 	rigid[8].vSize = Vector3D(bHeight, rect.size.y, 1.0);
 	rigid[8].vEuler = Vector3D(0.0, 90.0, 0.0);
 	//âú
 	rigid[9].kind = PLATE;
-	rigid[9].color = DARK_CYAN;
+	rigid[9].color = WHITE;
 	rigid[9].vPos = Vector3D(0.0, rect.size.y/2.0, hh0);
 	rigid[9].vSize = Vector3D(rect.size.x, bHeight, 1.0);
 	rigid[9].vEuler = Vector3D(90.0, 0.0, 0.0);
 	//âú
 	rigid[10].kind = PLATE;
-	rigid[10].color = DARK_CYAN;
+	rigid[10].color = WHITE;
 	rigid[10].vPos = Vector3D(0.0, -rect.size.y/2.0, hh0);
 	rigid[10].vSize = Vector3D(rect.size.x, bHeight, 1.0);
 	rigid[10].vEuler = Vector3D(-90.0, 0.0, 0.0);

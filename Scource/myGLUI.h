@@ -37,7 +37,7 @@ int flagObsStop = 0;
 int flagObsControl = 0;
 int flagRotation = 0;//âÒì]â^ìÆ
 int flagResetting = 0;
-int flagShadowShow = 0;
+int flagShadowShow = 1;
 
 int main_window;//GLUTÇ≈çÏÇÈWindowÇÃID
 float deltaT = 0.01;
@@ -323,7 +323,6 @@ void setupGLUI()
 
 	new GLUI_Checkbox(dispPanel, "Wireframe", &flagWireframe);
  	new GLUI_Checkbox(dispPanel, "Parameter", &flagParamShow);
- 	new GLUI_Checkbox(dispPanel, "CoordShow", &flagCoordShow);
  	new GLUI_Checkbox(dispPanel, "ShadowShow", &flagShadowShow);
 
 	wavePanel = new GLUI_Panel(glui, "Wave" );
