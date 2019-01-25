@@ -12,10 +12,10 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D2CCBB7E-4255-4472-A5FE-70979E9BB30E}</ProjectGuid>
-    <RootNamespace>GP_Caustics2</RootNamespace>
+    <RootNamespace>WaveSimulation</RootNamespace>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
-    <ProjectName>Wave</ProjectName>
+    <ProjectName>WaveSimulation</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
