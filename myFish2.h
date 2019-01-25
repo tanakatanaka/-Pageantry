@@ -99,7 +99,7 @@ void CFish2::draw()
 
 	//“·‘Ì
 	drawSuper(trunk1, trunk2, 20, 20, 1.8, 1.5, 0.2, angSwing, 6, 2);
-	drawEyes();
+	//drawEyes();
 	drawMouth();
 	glPopMatrix();
 }

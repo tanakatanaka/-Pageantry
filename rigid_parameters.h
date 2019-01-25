@@ -116,7 +116,7 @@ void createDisplayLists()
 	createBox();
 	createColumn();
 	createPlate();
-	createFloor();
+	//createFloor();
 	createFloorY();
 }
 void deleteDisplayLists()

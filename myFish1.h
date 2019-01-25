@@ -104,7 +104,7 @@ void CFish1::draw()
 	drawSuper(trunk1, trunk2, 20, 20, 1.5, 1.5, 0.8, angSwing, 5, 0);
 
 	drawTaile();
-	drawEyes();
+	//drawEyes();
 	drawMouth();
 	glPopMatrix();
 }
